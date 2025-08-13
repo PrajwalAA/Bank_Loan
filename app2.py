@@ -8,7 +8,7 @@ warnings.simplefilter('ignore')
 
 # --- 1. Model Loading ---
 # Ensure 'bank_loan_model2.pkl' is in the same directory as this Streamlit app.py
-MODEL_PATH = 'bank_loan_model2.pkl'
+MODEL_PATH = 'modelo.pkl'
 
 try:
     loaded_model = joblib.load(MODEL_PATH)
@@ -152,3 +152,4 @@ st.markdown(
     6.  Your browser will automatically open to the Streamlit app!
     """
 )
+
